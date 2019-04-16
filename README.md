@@ -178,6 +178,7 @@ npm i @babel/core @babel/preset-env @babel/plugin-proposal-decorators @babel/plu
   }
 ```
 #### 11、配置vue
+```
 const VueLoaderPlugin = require('vue-loader/lib/plugin');//VueLoaderPlugin,注意路径一定是('vue-loader/lib/plugin')，而不是('vue-loader')，不然会报错
 ```
 ```
