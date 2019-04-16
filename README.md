@@ -178,11 +178,6 @@ npm i @babel/core @babel/preset-env @babel/plugin-proposal-decorators @babel/plu
   }
 ```
 #### 11、配置vue
-```
-npm i vue-loader/lib/plugin -D
-```
-然后我们进行webpack.config.js的配置。
-```
 const VueLoaderPlugin = require('vue-loader/lib/plugin');//VueLoaderPlugin,注意路径一定是('vue-loader/lib/plugin')，而不是('vue-loader')，不然会报错
 ```
 ```
